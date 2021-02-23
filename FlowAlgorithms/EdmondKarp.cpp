@@ -21,7 +21,7 @@ struct EdmondKarp{
 		}
 	}
 
-	void addEdge(int u, int v, int w){
+	void add_edge(int u, int v, int w){
 		cap[u][v] = w;
 	}
 
