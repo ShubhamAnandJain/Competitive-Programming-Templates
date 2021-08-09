@@ -30,7 +30,7 @@ struct BCC{
 		num_edges = 0;
 	}
 
-	void add_edge(int a, int b, int arti){
+	void add_edge(int a, int b){
 		// add undirected edge a --- b
 		adj[a].push_back(b);
 		adj[b].push_back(a);
